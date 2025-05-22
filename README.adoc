@@ -1,0 +1,16 @@
+= C#
+
+The C# application requires https://dotnet.microsoft.com/en-us/[.NET 9], and can be built and run using the following commands:
+
+[source,bash]
+--
+$ dotnet build
+$ dotnet run --project Conway/Conway.csproj
+--
+
+
+Press `CTRL+Q` to quit.
+
+== Tests
+
+The C# application can be tested by running `dotnet test` at the root of the C# folder.
